@@ -1,0 +1,443 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 308px;
+  height: 1037px;
+  box-shadow: 0px 110.802px 88.642px rgba(141, 145, 160, 0.0196802),
+    0px 46.2906px 37.0325px rgba(141, 145, 160, 0.0282725),
+    0px 24.7492px 19.7993px rgba(141, 145, 160, 0.035),
+    0px 13.8742px 11.0994px rgba(141, 145, 160, 0.0417275),
+    0px 7.36848px 5.89478px rgba(141, 145, 160, 0.0503198),
+    0px 3.06619px 2.45295px rgba(0, 0, 0, 0.07);
+  background-color: #262a31;
+}
+
+.part1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.logo svg {
+  padding-right: 10px;
+}
+.ipsum span {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.part2 {
+  margin-top: 50px;
+}
+
+.part2 .person {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 17px;
+}
+
+.person .name {
+  padding-left: 8px;
+}
+
+.person .name span {
+  width: 76px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.person .icon {
+  padding-left: 140px;
+  color: white;
+}
+
+hr {
+  margin-top: 25px;
+  border: 1.10802px solid #f6f6f7;
+}
+
+.container .put input {
+  width: 279px;
+  height: 47px;
+
+  background: #f6f8fa;
+  border-radius: 8px;
+}
+
+.put {
+  position: relative;
+  margin: 7px 14px;
+}
+.put input::placeholder {
+  width: 57px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(42, 45, 55, 0.6);
+  padding-left: 17%;
+}
+
+.put .search-svg {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 3%;
+  top: 25%;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.nav1 .svg1 {
+  margin-left: 15px;
+}
+
+.nav1 .text1 {
+  padding-left: 10px;
+}
+
+.nav1 .text1 span {
+  width: 103px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #7f57f1;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav2 .svg2 {
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav2 .text2 {
+  padding-left: 20px;
+}
+
+.nav2 .text2 span {
+  width: 103px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav3 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav3 .svg3 {
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav3 .text3 {
+  padding-left: 20px;
+}
+
+.nav3 .text3 span {
+  width: 103px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav4 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav4 .svg4 {
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav4 .text4 {
+  padding-left: 20px;
+}
+
+.nav4 .text4 span {
+  width: 103px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.nav5 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav5 .svg5 {
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 0.6);
+
+}
+
+.nav5 .text5 {
+  padding-left: 20px;
+}
+
+.nav5 .text5 span {
+  width: 103px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+  .nav6 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .nav6 .svg6 {
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .nav6 .text6 {
+    padding-left: 20px;
+  }
+  
+  .nav6 .text6 span {
+    width: 103px;
+    height: 27px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .nav7 {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .nav7 .svg7 {
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .nav7 .text7 {
+    padding-left: 20px;
+  }
+  
+  .nav7 .text7 span {
+    width: 103px;
+    height: 27px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+footer{
+    margin-top: 190px;
+}
+
+ .top-footer {
+    display: flex;
+    align-items: center;
+    
+ } 
+
+ .top-footer .ft-svg1{
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 0.6);
+ }
+
+ .top-footer .ft-text1{
+    padding-left: 20px;
+ }
+ .top-footer .ft-text1 span{
+    width: 103px;
+    height: 27px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .bttm-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    
+ } 
+
+ .bttm-footer .ft-svg2{
+    margin-left: 15px;
+    color:  #EB5757;
+ }
+
+ .bttm-footer .ft-text2{
+    padding-left: 20px;
+ }
+ .bttm-footer .ft-text2 span{
+    width: 103px;
+    height: 27px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color:  #EB5757;
+ }
+
+.hidinp{
+    display: none;
+}
+
+
+
+ @media screen and (max-width: 576px) {
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 1020px;
+  width: 92px;
+}
+
+
+.hidinp{
+  display: flex;
+  justify-content: center;
+}
+    .ipsum{
+        display: none;
+    }
+
+    .part1  {width: 100%;
+        }
+    
+    .part1 .logo{
+         
+
+    }    
+    .person .name{
+        display: none;
+    }
+    .pht{
+        width: 100%;
+    }
+    .pht img{
+        
+    }
+
+    .put{
+        width: 100%;
+        /* margin: 0;
+        padding: 0%;
+        display: flex;
+        justify-content: center; */
+    }
+    .put input {
+        display: none;
+    
+ }
+
+ .put .search-svg{
+    display: none;
+ }
+
+
+ .hidinp{display: block;
+    width: 43px;
+height: 43px;
+background: #F6F8FA;
+border-radius: 8px;
+position: relative;
+
+margin-top: 16px;
+
+}
+.hidinp svg{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.nav1 .text1{
+    display: none;
+}
+.nav1 .svg1{
+    
+}
+.nav2 .text2{
+    display: none;
+}
+.nav2 .svg2{
+    
+}
+
+.nav3 .text3{
+    display: none;
+}
+.nav3 .svg3{
+    
+}
+.nav4 .text4{
+    display: none;
+}
+.nav4 .svg4{
+    
+}
+.nav5 .text5{
+    display: none;
+}
+.nav5 .svg5{
+    
+}
+.nav6 .text6{
+    display: none;
+}
+.nav6 .svg6{
+    
+}
+
+.nav7 .text7{
+    display: none;
+}
+.nav7 .svg7 {
+    
+}
+
+.container{
+  margin-left: 50%;
+
+}
+
+
+}
